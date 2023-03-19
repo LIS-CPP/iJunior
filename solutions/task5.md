@@ -1,3 +1,4 @@
+```csharp
 using System;
 using System.Text;
 
@@ -21,3 +22,5 @@ namespace Program
         }
     }
 }
+```
+[task5.cs](task5.cs)
