@@ -16,7 +16,7 @@ namespace Program
 
             string tmpName = name;
             name = surname;
-            surname = tmp;
+            surname = tmpName;
 
             Console.WriteLine($"Имя: {name}; Фамилия: {surname}");
         }
