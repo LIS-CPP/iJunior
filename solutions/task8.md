@@ -15,10 +15,10 @@ namespace Program
 
             Console.Write("Введите количество людей в очереди: ");
 
-            int peolpeCount;
-            peolpeAmount = Convert.ToInt32(Console.ReadLine());
+            int peopleCount;
+            peopleCount = Convert.ToInt32(Console.ReadLine());
 
-            int timeToWait = peolpeCount * delayTime;
+            int timeToWait = peopleCount * delayTime;
             int hoursToWait = timeToWait / minutesInHour;
             int remainingMinutesToWait = timeToWait % minutesInHour;
 
