@@ -11,20 +11,20 @@ namespace Program
 
             int gold = 0;
             int сrystals = 0;
-            int costOfCrystals= 99;
+            int costOfOneCrystal = 99;
 
             Console.Write("Сколько золота вы имеете? ");
             gold = Convert.ToInt32(Console.ReadLine());
 
-            int tmpMaxCrystalsAmountToBuy = gold / costOfCrystals;
+            int tempMaxCrystalsAmountToBuy = gold / costOfOneCrystal;
 
-            Console.Write($"Вы можете приобрести {tmpMaxCrystalsAmountToBuy} кристалов.\n" +
+            Console.Write($"Вы можете приобрести {tempMaxCrystalsAmountToBuy} кристалов.\n" +
                 $"Сколько кристалов хотите приобрести? ");
 
-            int tmpCrystalsAmountWantToBuy;
-            tmpCrystalsAmountWantToBuy = Convert.ToInt32(Console.ReadLine());
-            gold -= tmpCrystalsAmountWantToBuy * costOfCrystals;
-            сrystals += tmpCrystalsAmountWantToBuy;
+            int tempCrystalsAmountWantToBuy;
+            tempCrystalsAmountWantToBuy = Convert.ToInt32(Console.ReadLine());
+            gold -= tempCrystalsAmountWantToBuy * costOfOneCrystal;
+            сrystals += tempCrystalsAmountWantToBuy;
 
             Console.WriteLine($"У вас осталось {gold} золота и {сrystals} кристаллов");
         }
