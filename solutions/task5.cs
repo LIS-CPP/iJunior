@@ -9,11 +9,12 @@ namespace Program
         {
             Console.OutputEncoding = Encoding.Unicode;
 
-            string name = "Pozov", surname = "Igor";
+            string name = "Pozov";
+            string surname = "Igor";
 
             Console.WriteLine($"Имя: {name}; Фамилия: {surname}");
 
-            string tmp = name;
+            string tmpName = name;
             name = surname;
             surname = tmp;
 
