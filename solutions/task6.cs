@@ -10,8 +10,8 @@ namespace Program
             Console.OutputEncoding = Encoding.Unicode;
 
             int picturesInRow = 3;
-            int picturesAmount = 52;
-            int filledRows = picturesAmount / picturesInRow;
+            int picturesCount = 52;
+            int filledRows = picturesCount / picturesInRow;
             int remainingPictures = picturesAmount % picturesInRow;
 
             Console.WriteLine($"Полностью заполненых рядов: {filledRows}\n" +
