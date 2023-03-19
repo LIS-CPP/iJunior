@@ -14,9 +14,9 @@ namespace Program
 
             Console.WriteLine($"Имя: {name}; Фамилия: {surname}");
 
-            string tmpName = name;
+            string tempName = name;
             name = surname;
-            surname = tmpName;
+            surname = tempName;
 
             Console.WriteLine($"Имя: {name}; Фамилия: {surname}");
         }
